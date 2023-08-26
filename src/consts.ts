@@ -26,4 +26,4 @@ export const DEFAULT_PHASES: IPhase[] = [
 	},
 ]
 
-export const STORAGE_KEY = "OAKS_LABS_STORAGE_KEY"
+export const STORAGE_KEY = "STARTUP_PROGRESS_TRACKER_STORAGE_KEY"

@@ -6,7 +6,7 @@ Welcome to the Startup Progress Tracker app! This app serves as your comprehensi
 
 - **Task Recording:** The app provides a seamless process for recording each phases of your startup journey. From initial ideation to product launch and beyond, you can easily log every phase.
 
-- **Local Storage:** All data related to your startup progress is securely stored using Local Storage. The designated key for this storage is `OAKS_LABS_STORAGE_KEY`, ensuring your data remains easily accessible and private.
+- **Local Storage:** All data related to your startup progress is securely stored using Local Storage. The designated key for this storage is `STARTUP_PROGRESS_TRACKER_STORAGE_KEY`, ensuring your data remains easily accessible and private.
 
 - **Customization:** Want to tailor the app to your specific startup workflow? No problem! Head over to the `src/consts.ts` file to modify the `DEFAULT_PHASES` array. This empowers you to adapt the default phases to align with your unique business trajectory.
 
