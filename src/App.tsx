@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Typography from '@mui/material/Typography'
+import {QueryClient, QueryClientProvider} from 'react-query'
+import {ToastContainer} from 'react-toastify'
+
+import MilestonesList from './components/MilestonesList'
+
+import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
+import 'react-toastify/dist/ReactToastify.css'
+import './App.css'
+
+const queryClient = new QueryClient()
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<QueryClientProvider client={queryClient}>
+			<div className="container">
+				<Typography variant='h4'>My startup progress</Typography>
+				<MilestonesList />
+			</div>
+			<ToastContainer />
+		</QueryClientProvider>
+	)
 }
 
-export default App;
+export default App
