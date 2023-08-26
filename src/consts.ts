@@ -1,9 +1,9 @@
-import { IMilestone } from "./types"
+import { IPhase } from "./types"
 
-export const DEFAULT_MILESTONES: IMilestone[] = [
+export const DEFAULT_PHASES: IPhase[] = [
 	{
 		title: 'Foundation',
-		steps: [
+		tasks: [
 			{title: 'Setup virtual office', done: false},
 			{title: 'Set mission & vision', done: false},
 			{title: 'Select business name', done: false},
@@ -12,14 +12,14 @@ export const DEFAULT_MILESTONES: IMilestone[] = [
 	},
 	{
 		title: 'Discovery',
-		steps: [
+		tasks: [
 			{title: 'Create roadmap', done: false},
 			{title: 'Competitor analysis', done: false},
 		],
 	},
 	{
 		title: 'Delivery',
-		steps: [
+		tasks: [
 			{title: 'Release marketing website', done: false},
 			{title: 'Release MVP', done: false},
 		],

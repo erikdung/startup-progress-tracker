@@ -1,14 +1,14 @@
 import { useQuery, useMutation, useQueryClient } from 'react-query'
 
-import { getMilestones, toggleStep } from './storage'
+import { getPhases, toggleTask } from './storage'
 
-const queryKey = ['milestones_key']
+const queryKey = ['phases_key']
 
-export const useGetMilestones = () => useQuery(queryKey, getMilestones)
+export const useGetPhases = () => useQuery(queryKey, getPhases)
 
-export const useMutateStep = (milestoneIndex: number, stepIndex: number) => {
+export const useMutateTask = (phaseIndex: number, taskIndex: number) => {
 	const queryClient = useQueryClient()
-	return useMutation(() => toggleStep(milestoneIndex, stepIndex), {
+	return useMutation(() => toggleTask(phaseIndex, taskIndex), {
 		onSuccess: () => {
 			queryClient.invalidateQueries(queryKey)
 		}

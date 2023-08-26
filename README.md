@@ -1,20 +1,20 @@
 # Startup Progress Tracker App README
 
-Welcome to the Startup Progress Tracker app! This app serves as your comprehensive solution for recording and managing the various steps involved in the progress of your startup. Whether you're just beginning or well on your way, this app will help you stay organized and informed. Below, we've outlined essential information to get you started:
+Welcome to the Startup Progress Tracker app! This app serves as your comprehensive solution for recording and managing the various phases involved in the progress of your startup. Whether you're just beginning or well on your way, this app will help you stay organized and informed. Below, we've outlined essential information to get you started:
 
 ## Features
 
-- **Step Recording:** The app provides a seamless process for recording each step of your startup journey. From initial ideation to product launch and beyond, you can easily log every milestone.
+- **Task Recording:** The app provides a seamless process for recording each phases of your startup journey. From initial ideation to product launch and beyond, you can easily log every phase.
 
 - **Local Storage:** All data related to your startup progress is securely stored using Local Storage. The designated key for this storage is `OAKS_LABS_STORAGE_KEY`, ensuring your data remains easily accessible and private.
 
-- **Customization:** Want to tailor the app to your specific startup workflow? No problem! Head over to the `src/consts.ts` file to modify the `DEFAULT_MILESTONES` array. This empowers you to adapt the default steps to align with your unique business trajectory.
+- **Customization:** Want to tailor the app to your specific startup workflow? No problem! Head over to the `src/consts.ts` file to modify the `DEFAULT_PHASES` array. This empowers you to adapt the default phases to align with your unique business trajectory.
 
-- **Reset Functionality:** Need a fresh start? To reset the app's state, simply remove the current state stored in Local Storage. This action will enable you to begin anew, refining your approach and redefining your milestones as needed.
+- **Reset Functionality:** Need a fresh start? To reset the app's state, simply remove the current state stored in Local Storage. This action will enable you to begin anew, refining your approach and redefining your phases as needed.
 
-- **Intuitive Progress Tracking:** The app simplifies progress tracking. Each step can be marked as complete once all preceding steps are finished. Additionally, if you find the need to backtrack, undoing a step will automatically reverse all subsequent steps associated with it.
+- **Intuitive Progress Tracking:** The app simplifies progress tracking. Each task in the phase can be marked as complete once all preceding phases are finished. Additionally, if you find the need to backtrack, undoing a task will automatically reverse all subsequent phases associated with it.
 
-- **Celebratory Notifications:** As you achieve milestones, the app rewards you with a touch of motivation. Upon completing a milestone, a toast notification will pop up, accompanied by intriguing and random startup-related facts. This not only recognizes your achievements but also keeps you engaged and entertained.
+- **Celebratory Notifications:** As you achieve phases, the app rewards you with a touch of motivation. Upon completing a phase, a toast notification will pop up, accompanied by intriguing and random startup-related facts. This not only recognizes your achievements but also keeps you engaged and entertained.
 
 ## Available Scripts
 
@@ -41,13 +41,13 @@ Your app is ready to be deployed!
 
 1. **Installation:** Install all dependencies with the command `npm install`.
 
-2. **Recording Progress:** Launch the app with the command `npm start` and open the browser with the app. Here, you can meticulously record each step achieved in your startup journey.
+2. **Recording Progress:** Launch the app with the command `npm start` and open the browser with the app. Here, you can meticulously record each phases achieved in your startup journey.
 
-3. **Customize Your Steps:** Tailor the default steps to align with your startup's unique roadmap. Access the `src/consts.ts` file and modify the `DEFAULT_MILESTONES` array as needed.
+3. **Customize Your Phases:** Tailor the default phases to align with your startup's unique roadmap. Access the `src/consts.ts` file and modify the `DEFAULT_PHASES` array as needed.
 
 4. **Resetting the App:** Should you wish to start afresh, consider resetting the app's state. This can be achieved by removing the existing state stored in Local Storage.
 
-5. **Staying Motivated:** Watch out for the toast notifications! As you conquer milestones, the app will surprise you with celebratory messages and intriguing startup facts.
+5. **Staying Motivated:** Watch out for the toast notifications! As you conquer phases, the app will surprise you with celebratory messages and intriguing startup facts.
 
 Try the [DEMO](https://silly-cascaron-d51dbe.netlify.app/) here.
 
