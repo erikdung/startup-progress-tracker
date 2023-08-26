@@ -49,6 +49,8 @@ Your app is ready to be deployed!
 
 5. **Staying Motivated:** Watch out for the toast notifications! As you conquer milestones, the app will surprise you with celebratory messages and intriguing startup facts.
 
+Try the [DEMO](https://silly-cascaron-d51dbe.netlify.app/) here.
+
 ## Feedback and Support
 
 We value your experience with the Startup Progress Tracker app. If you encounter any issues, have suggestions for improvements, or simply want to reach out, don't hesitate to email me to erik.dung@gmail.com.
